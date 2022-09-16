@@ -1,0 +1,69 @@
+import time
+import uinput
+import getpointer
+import gtk, pygtk
+
+window = gtk.Window()
+screen = window.get_screen()
+width = screen.get_width()
+height = screen.get_height()
+print "width = " + str(screen.get_width()) + ", height = " + str(screen.get_height())
+
+UINT16MAX = 65535
+
+getpointer.check_device()
+
+events = (
+uinput.REL_X,
+uinput.REL_Y,
+uinput.BTN_LEFT,
+uinput.BTN_RIGHT
+)
+device = uinput.Device(events)
+time.sleep(1)
+print device
+getpointer.sig_start()
+x1 = 0
+y1 = 0
+
+while (getpointer.check_packet()):
+if getpointer.check_signature():
+continue
+if getpointer.check_version():
+break
+
+# present point
+deviec.emit(uinput.BTN_LEFT,0)
+x2 = getpointer.get_x()
+y2 = getpointer.get_y()
+pressure=getpointer.get_pressure()
+
+print x2
+print y2
+
+# not abs
+moveX = x2 - x1
+moveY = y2 - y1
+
+# uint16 abs
+x = (abs(moveX) * width) / UINT16MAX
+y = (abs(moveY) * height) / UINT16MAX
+
+if moveX <= 0:
+    x = -x
+
+if moveY <= 0:
+    y = -y
+
+x1 = x2
+y1 = y2
+
+ if pressure==0:   
+    device.emit(uinput.REL_X, x, syn=False)
+    device.emit(uinput.REL_Y, y)
+
+elif pressure==1:    
+ deviec.emit(uinput.BTN_LEFT,1)
+ device.emit(uinput.REL_X, x, syn=False)
+ device.emit(uinput.REL_Y, y)
+getpointer.destroy_socket()
