@@ -1,2 +1,2 @@
 # Sketch-Auto-Painting
-GAN algorithm
+ML GAN, Arduino, Tensorflow, Eclipse, Ubuntu, C, Python, JSP, LINUX
