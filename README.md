@@ -10,5 +10,8 @@
 <img width="400" alt="스크린샷 2022-09-16 오후 11 08 42" src="https://user-images.githubusercontent.com/26247241/190662658-be43c174-5c4e-467b-a8cf-aed262cc91df.png"> <img width="400" alt="스크린샷 2022-09-16 오후 11 08 49" src="https://user-images.githubusercontent.com/26247241/190662680-af4be8ca-cbca-423b-88b0-b9b47e7ea725.png">
 
 
+timespent : 2017.03~08
 
 tech : ML, CNN, GAN, Tensorflow, Ubuntu, Arduino, C, JAVA, Python, JSP
+
+functions : edge detection, sketch mouse, 밑그림 자동 채색
