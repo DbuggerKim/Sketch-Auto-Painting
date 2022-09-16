@@ -6,7 +6,8 @@
 
 - 결과물
 
-<img width="400" height="300" alt="스크린샷 2022-09-16 오후 11 08 42" src="https://user-images.githubusercontent.com/26247241/190662658-be43c174-5c4e-467b-a8cf-aed262cc91df.png"> <img width="400" height="300" alt="스크린샷 2022-09-16 오후 11 08 49" src="https://user-images.githubusercontent.com/26247241/190662680-af4be8ca-cbca-423b-88b0-b9b47e7ea725.png">
+<img width="250" height="150" alt="스크린샷 2022-09-16 오후 11 08 42" src="https://user-images.githubusercontent.com/26247241/190662658-be43c174-5c4e-467b-a8cf-aed262cc91df.png"> <img width="250" height="150" alt="스크린샷 2022-09-16 오후 11 08 49" src="https://user-images.githubusercontent.com/26247241/190662680-af4be8ca-cbca-423b-88b0-b9b47e7ea725.png"> <img width="250" height="150" src="https://user-images.githubusercontent.com/26247241/190664868-cd10aace-fe0c-4efd-8290-3bc1f4c0cd57.png">
+
 
 
 timespent : 2017.03~08
