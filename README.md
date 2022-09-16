@@ -1,2 +1,2 @@
 # Sketch-Auto-Painting
-ML GAN, Arduino, Tensorflow, Eclipse, Ubuntu, C, Python, JSP, LINUX
+ML, CNN, GAN, Tensorflow, Ubuntu, Arduino, C, JAVA, Python, JSP
