@@ -1,0 +1,28 @@
+import os,sys 
+import Image 
+ 
+size = 256, 256 
+ 
+for (path, dirname,files) in os.walk(sys.argv[1]): 
+  for f in files: 
+    ext = os.path.splitext(f) 
+    upper_ext = ext[1].upper() 
+     outfile = os.path.join(path, '/root/output', ext[0]+'_256x256'+ upper_ext) 
+     try: 
+      new_img = Image.new("RGB", (256,256), "white") 
+       im = Image.open(os.path.join(path,f)) 
+       im.thumbnail(size, Image.ANTIALIAS) 
+       load_img = im.load() 
+       load_newimg = new_img.load() 
+       i_offset = (256 - im.size[0]) / 2 
+       j_offset = (256 - im.size[1]) / 2 
+       for i in range(0, im.size[0]): 
+         for j in range(0, im.size[1]): 
+           load_newimg[i + i_offset,j + j_offset] = load_img[i,j] 
+  
+           if(upper_ext == '.JPEG' or upper_ext == '.JPG'): 
+             new_img.save(outfile, "JPEG") 
+           elif(upper_ext == '.PNG'): 
+             new_img.save(outfile, "PNG") 
+      except IOError: 
+       print "cannot create thumbnail for '%s'" % os.path.join(path, f) 
