@@ -4,7 +4,7 @@
 
 <img width="250" height="150" alt="스크린샷 2022-09-16 오후 11 21 24" src="https://user-images.githubusercontent.com/26247241/190661566-8bc78f77-ce79-442d-af53-40018e96dfae.png"> <img width="250" height="150" src="https://user-images.githubusercontent.com/26247241/190661694-77ef580b-291f-4810-bc41-645b6a287b82.png">  <img width="250" height="150" src="https://user-images.githubusercontent.com/26247241/190661712-99c5f273-1081-4ec1-8517-dfa16f5d4806.png">
 
-- 알고리즘 학습 비교
+- 알고리즘별 이미지 데이터 학습 결과 비교
 
 (a) input (b) cGAN output (c) wGAN output
 
