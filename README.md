@@ -17,6 +17,6 @@
 
 > timespent : 2017.03~08
 
-> tech : WebCrawling, GAN, Tensorflow, Ubuntu, Arduino, Python
+> tech : WebCrawling, GAN, Tensorflow, Ubuntu, Arduino, PYTHON
 
 > functions : edge detection, sketch mouse, 밑그림 자동 채색
