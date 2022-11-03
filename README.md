@@ -17,6 +17,6 @@
 
 > timespent : 2017.03~08
 
-> tech : ML, GAN, Tensorflow, Ubuntu, Arduino, Tomcat, Python, JSP
+> tech : webcrawling, GAN, Tensorflow, Ubuntu, Arduino, Python
 
 > functions : edge detection, sketch mouse, 밑그림 자동 채색
