@@ -21,3 +21,5 @@
 > tech : WebCrawling, GAN, Tensorflow, Ubuntu, Arduino, PYTHON
 
 > functions : edge detection, sketch mouse, 밑그림 자동 채색
+
+> 논문 : 한국정보처리학회 2017년도 추계학술발표대회 2017 Nov. 01 , 2017년, pp.792 - 794  
